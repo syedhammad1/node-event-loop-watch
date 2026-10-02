@@ -1,0 +1,30 @@
+{
+  "name": "@syedhammad1/node-event-loop-watch",
+  "version": "0.1.0",
+  "description": "Dependency-free event loop delay snapshots and alerts for Node.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "types": "./src/index.d.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/blocking.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syedhammad1/node-event-loop-watch.git"
+  }
+}
